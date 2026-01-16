@@ -187,6 +187,15 @@ const paramTypes = {
       required: false,
     },
   },
+  file: {
+    id: 'file',
+    name: 'File (CSV)',
+    valueComp: ParameterInputValue, 
+    data: {
+      required: false,
+      accept: '.csv', 
+    },
+  },
   checkbox: {
     id: 'checkbox',
     name: 'Checkbox',
